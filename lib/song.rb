@@ -20,7 +20,6 @@ class Song
       @@genres
     else
       @@genres << @genre
-
     end
   end
 end
