@@ -14,7 +14,7 @@ class Song
     @@count
   end
   def self.genres
-    if @@genres.include?(genre)
+    if @@genres.include?(@genre)
         binding.pry
       @@genres
     else
