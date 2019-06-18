@@ -9,6 +9,7 @@ class Song
     @genre = genre
     @@count += 1
     @@genres = []
+    binding.pry
   end
   def self.count
     @@count
