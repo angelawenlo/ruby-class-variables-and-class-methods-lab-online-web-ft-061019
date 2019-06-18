@@ -26,7 +26,7 @@ class Song
     count = 0
     @@genres.each do |genre|
       if genres.include?(genre)
-      binding.pry
+      count += 1
     end
   end
 end
