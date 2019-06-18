@@ -26,7 +26,7 @@ class Song
     genre_count = {}
     @@genres.to_h.each do |genre|
       if genres.include?(genre)
-    
+
     end
     end
   end
