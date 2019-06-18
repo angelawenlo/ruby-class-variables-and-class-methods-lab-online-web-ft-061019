@@ -23,6 +23,7 @@ class Song
     @@genres.uniq
   end
   def self.genre_count
+    count = 0
     @@genres.each do |genre|
       if genres.include?(genre)
       binding.pry
