@@ -17,7 +17,6 @@ class Song
   end
   def self.genres
     if @@genres.include?(@genre)
-        binding.pry
       @@genres
     else
       @@genres << @genre
