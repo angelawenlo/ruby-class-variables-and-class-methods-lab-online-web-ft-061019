@@ -16,6 +16,7 @@ class Song
       @@genres
     else
       @@genres << genre
+      binding.pry
     end
   end
 end
