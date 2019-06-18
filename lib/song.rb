@@ -28,5 +28,6 @@ class Song
       if genres.include?(genre)
       count += 1
     end
+    end
   end
 end
